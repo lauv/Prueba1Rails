@@ -13,4 +13,5 @@ class PagesController < ApplicationController
   	VotosSuperman.create({name: params[:names], email: params[:emails]})
   	redirect_to(pages_superman_path, notice: "Voto para Superman was saved")
   end
+  
 end
